@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--等分之、xhdpi320分之一-->
+    <dimen name="x_1">1dp</dimen>
+    <dimen name="x_2">2dp</dimen>
+    <dimen name="x_3">3dp</dimen>
+    <dimen name="x_4">4dp</dimen>
+    <dimen name="x_5">5dp</dimen>
+    <dimen name="x_6">6dp</dimen>
+    <dimen name="x_7">7dp</dimen>
+    <dimen name="x_8">8dp</dimen>
+    <dimen name="x_9">9dp</dimen>
+    <dimen name="x_10">10dp</dimen>
+    <dimen name="x_11">11dp</dimen>
+    <dimen name="x_12">12dp</dimen>
+    <dimen name="x_13">13dp</dimen>
+    <dimen name="x_14">14dp</dimen>
+    <dimen name="x_15">15dp</dimen>
+    <dimen name="x_36">36dp</dimen>
+    <dimen name="x_50">50dp</dimen>
+    <dimen name="x_320">320dp</dimen>
+
+    <!--字体-->
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+</resources>

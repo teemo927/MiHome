@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kelvin.mihome.fragment.TabFragment">
+
+    <LinearLayout
+        android:id="@+id/llt_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <com.kelvin.mihome.view.BottomButton
+            android:id="@+id/bb_music"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:setTab="true"
+            app:imageSrc="@drawable/selector_music"
+            app:titleText="歌曲"
+            app:titleTextColor="@android:color/black"
+            app:titleTextSize="@dimen/sp_18" />
+
+        <com.kelvin.mihome.view.BottomButton
+            android:id="@+id/bb_song"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:imageSrc="@drawable/selector_song"
+            app:titleText="曲库"
+            app:titleTextColor="@android:color/black"
+            app:titleTextSize="@dimen/sp_18" />
+
+        <com.kelvin.mihome.view.BottomButton
+            android:id="@+id/bb_people"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:imageSrc="@drawable/selector_people"
+            app:titleText="联系人"
+            app:titleTextColor="@android:color/black"
+            app:titleTextSize="@dimen/sp_18" />
+
+        <com.kelvin.mihome.view.BottomButton
+            android:id="@+id/bb_mime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:imageSrc="@drawable/selector_setting"
+            android:layout_weight="1"
+            app:titleText="我的"
+            app:titleTextColor="@android:color/black"
+            app:titleTextSize="@dimen/sp_18" />
+    </LinearLayout>
+
+</FrameLayout>
